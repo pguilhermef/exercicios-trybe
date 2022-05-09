@@ -10,3 +10,11 @@ ol{
 .par{
   color: green;
 }
+
+h1, h2, h3 {
+  color: red;
+}
+
+.italic{
+  font-size: 40px;
+}
