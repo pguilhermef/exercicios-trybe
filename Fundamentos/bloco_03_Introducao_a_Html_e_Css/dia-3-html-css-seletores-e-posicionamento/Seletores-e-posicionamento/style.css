@@ -1,0 +1,37 @@
+ol{
+  background-color: yellow;
+  
+}
+
+.impar{
+  text-transform: uppercase;
+}
+
+.par{
+  color: green;
+}
+
+h1, h2, h3 {
+  color: red;
+}
+
+.italic{
+  font-size: 40px;
+}
+
+li{
+  font-size: 20px;
+}
+
+.liitalic{
+  font-weight: bold;
+}
+
+ul>li.pinteTresPrimeiras{
+  color:blue
+}
+
+.javaAsterisco{
+  background-color: pink;
+}
+
