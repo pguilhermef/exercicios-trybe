@@ -18,3 +18,20 @@ h1, h2, h3 {
 .italic{
   font-size: 40px;
 }
+
+li{
+  font-size: 20px;
+}
+
+.liitalic{
+  font-weight: bold;
+}
+
+ul>li.pinteTresPrimeiras{
+  color:blue
+}
+
+li.pinteTresPrimeiras{
+  background-color: pink;
+}
+
