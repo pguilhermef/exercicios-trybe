@@ -27,11 +27,32 @@ li{
   font-weight: bold;
 }
 
-ul>li.pinteTresPrimeiras{
+li.pinteTresPrimeiras{
   color:blue
 }
 
 .javaAsterisco{
   background-color: pink;
+}
+
+li.stackOverflow>a:hover{
+  font-weight: bold;
+  color: orange;
+}
+li.w3Schools>a:hover{
+  font-weight: bold;
+  color: green;
+}
+li.mdnWebSchool>a:hover{
+  font-weight: bold;
+  color: black;
+}
+li.devDocs>a:hover{
+  font-weight: bold;
+  color: yellow;
+}
+li.trybe>a:hover{
+  font-weight: bold;
+  color: green;
 }
 
