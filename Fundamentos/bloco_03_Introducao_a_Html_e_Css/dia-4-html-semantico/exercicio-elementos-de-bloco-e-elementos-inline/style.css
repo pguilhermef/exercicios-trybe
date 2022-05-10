@@ -26,6 +26,22 @@ h1 {
   width: 300px;
 }
 
+.first{
+  list-style: none;
+  display: block;
+  margin: auto;
+}
+
+.second{
+  list-style: none;
+  display: inline-block; 
+}
+
+.third{
+  list-style: none;
+  display: inline-block; 
+}
+
 .award li{
   list-style: none;
   display: inline;
@@ -34,3 +50,4 @@ h1 {
 section:nth-of-type(2){
   text-align: center;
 }
+
