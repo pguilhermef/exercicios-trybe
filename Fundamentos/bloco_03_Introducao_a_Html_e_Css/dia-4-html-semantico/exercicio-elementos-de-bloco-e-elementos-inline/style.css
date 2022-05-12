@@ -26,11 +26,30 @@ h1 {
   width: 300px;
 }
 
+.first{
+  list-style: none;
+  display: block;
+  margin: auto;
+}
+
+.second{
+  list-style: none;
+  display: inline-block;
+  align-self: auto;
+}
+
+.third{
+  list-style: none;
+  display: inline-block;
+  align-self: auto;
+}
+
 .award li{
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
 
 section:nth-of-type(2){
   text-align: center;
 }
+
