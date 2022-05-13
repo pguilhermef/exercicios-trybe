@@ -1,9 +1,9 @@
-const lado1 = 6
-const lado2 = 12
-const lado3 = 5
+const lado1 = 10
+const lado2 = 10
+const lado3 = 10
 
 if (lado1 < (lado2 + lado3) && lado2 < (lado1 + lado3) && lado3 < (lado2 + lado1)){
-  angulo1=true
+  console.log("É triangulo")
 } else {
-  angulo1=false
+  console.log("Não é triângulo")
 }
