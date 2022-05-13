@@ -1,4 +1,4 @@
-const a = 3
+const a = 7
 const b = 10
 
 console.log("O resultado da soma é de:", (a+b))
