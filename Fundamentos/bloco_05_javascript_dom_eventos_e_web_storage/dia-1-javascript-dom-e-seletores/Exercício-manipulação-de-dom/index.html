@@ -71,10 +71,14 @@
 
 
         //  Crie uma função que corrija o texto da tag <h1>.
-
+        
+        function mudaFrase(frase){
         let titulo = document.getElementsByTagName('h1')[0]
 
-        titulo.textContent = "Exercício 1 - JavaScript"
+        titulo.textContent = frase
+        }
+
+        mudaFrase("Exercício 1 - JavaScript")
 
 
 
