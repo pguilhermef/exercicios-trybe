@@ -46,20 +46,33 @@
         //  document.getElementsByClassName()
         //  document.getElementsByTagName()
 
-        function mudaParagrafoVisao(frase){
+        // Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
+
+        function mudaParagrafo2(frase){
           let p2 = document.getElementsByTagName("p")[1]
           p2.textContent = frase
         }
 
-        mudaParagrafoVisao("Me vejo em nível de programção pleno.")
-        /*
- Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício)
- Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
- Crie uma função que mude a cor do quadrado vermelho para branco.
- Crie uma função que corrija o texto da tag <h1>.
- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
- Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        */
+        mudaParagrafo2("Me vejo em nível de programção pleno.")
+        
+ 
+        // Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+        
+          let yellowSquare = document.querySelectorAll('main.main-content')[0]
+
+          yellowSquare.style.backgroundColor = 'rgb(76,164,109)'
+
+        //  Crie uma função que mude a cor do quadrado vermelho para branco.
+
+
+
+
+
+
+//  Crie uma função que corrija o texto da tag <h1>.
+//  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+//  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+
     </script>
   </body>
 </html>
