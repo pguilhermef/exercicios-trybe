@@ -5,28 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
+<body class="container">
   <header>
     <h1>Seja Bem-Vindo</h1>
     <h2>Log In</h2>
   </header>
 
   <main>
-
-    <label for="input-email"> E-mail
-      <input id="input-email" type="email" autofocus placeholder="Digite seu e-mail" autocomplete="off" required >
-    </label>
-    <br>
-    <label for="input-senha"> Senha
-      <input id="input-senha" type="password" placeholder="Digite sua senha" required>
-    </label>
-    <br>
-    <label for="checkbox-lembrar">Lembrar-me
-      <input id="checkbox-lembrar" type="checkbox">
-    </label>
-    <br>
-    <button type="submit">Entrar</button>
+    <form>
+      <div class="mb-3">
+        <label for="input-email" class="form-label"> E-mail
+          <input id="input-email" type="email" class="form-control" autofocus placeholder="Digite seu e-mail" autocomplete="off" required>
+        </label>
+      </div>
+      <div class="mb-3">
+        <label for="input-senha" class="form-label"> Senha
+          <input id="input-senha" class="form-control" type="password" placeholder="Digite sua senha" required>
+        </label>
+      </div>
+      <label for="checkbox-lembrar" class="form-check-label"> Lembrar-me
+        <input id="checkbox-lembrar" class="form-check-input" type="checkbox"> 
+      </label>
+      <button class="btn btn-secondary">Entrar</button>
+      <button class="btn btn-secondary">Entrar</button>
+   </form>
   </main>
 </body>
 </html>
