@@ -12,6 +12,7 @@ body {
 .header-container {
   background-color: #5C687C;
   display: flex;
+  justify-content: flex-end;
   flex-direction: row-reverse;
 }
 
@@ -23,7 +24,8 @@ body {
 
 .menu-container {
   display: flex;
-  flex-basis: 500px;
+  flex-basis: auto;
+  flex-grow: 1000px;
 }
 
 .menu-container ul {
