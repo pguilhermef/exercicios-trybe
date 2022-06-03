@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: flex-end;
   flex-direction: row-reverse;
+  align-self: center;
 }
 
 .logo-container {
@@ -40,4 +41,8 @@ body {
   font-size: 1.3rem;
   list-style: none;
   margin-right: 10px;
+}
+
+.header-container ul li{
+  align-self: center;
 }
